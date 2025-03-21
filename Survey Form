@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Tournoi RL</h1>
+    <p id="description">Inscriptions</p>
+    <form id="survey-form" required>
+      <fieldset>
+      <label id="name-label">Name<input type="text" id="name" required placeholder="Jean Dormesson">
+      </label>
+      <label id="email-label">E-mail<input type="email" id="email" required placeholder="jeandormesson@gmail.com">
+      </label>
+      <label id="number-label">Age (in years)<input type="number" id="number" required min="14" max="120" placeholder="25">
+      </label>
+  </fieldset>
+  <fieldset>
+      <select id="dropdown">
+        <option value="">Ta voiture</option>
+        <option value="1">Fennec</option>
+        <option value="2">Octane</option>
+        <option value="3">Dominus</option>
+        <option value="4">Autre</option>
+        </select>
+  </fieldset>
+  <fieldset>
+        <label for="rl"><input type="radio" value="0" name="rl" class="inline"/>Joueur Régulier</label>
+        
+        <label><input type="radio" value="1" name="rl" class="inline">Joueur Occasionel</label>
+        </fieldset>
+        <fieldset>
+        <label><input type="checkbox" value="1" class="inline">Champion 3</label>
+        <label><input type="checkbox" value="2" class="inline">Grand Champion 1</label>
+        <label><input type="checkbox" value="3" class="inline">Grand Champion 2</label>
+        <label><input type="checkbox" value="4" class="inline">Grand Champion 3</label>
+        <label><input type="checkbox" value="5" class="inline">SuperSonicLegend</label>
+        </fieldset>
+<fieldset>
+        <textarea rows="3" columns="30" placeholder="Ton style de jeu: Mecanique, Teamplay, Rotation"></textarea>
+        </fieldset>
+        <fieldset>
+        <input type="submit" id="submit">
+        </fieldset>
+      
 
+
+    </form>
+
+  </body>
+
+</html>
