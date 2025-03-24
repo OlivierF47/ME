@@ -1,10 +1,10 @@
 #title{
-  font-family:georgia,serif;
+  font-family:"Lobster";
   text-align:center;
   color:blue;
 }
 #description{
-  font-family:arial;
+  font-family:"Lobster";
   text-align:center;
   color:grey;
 }
@@ -15,6 +15,7 @@ body{
   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   color:white;
   width:100%;
+  font-family:"arvo";
   
   
 
@@ -23,7 +24,7 @@ fieldset{
   margin:1em;
   padding:2em;
   border:none;
-  border-bottom:3px solid
+  
 }
 label{
   display:block;
@@ -56,8 +57,19 @@ textarea{
   display:block;
   border-radius:40%;
   border:solid 3px rgb(0, 255, 255);
+  font-family:"arvo";
   
 }
 #submit:hover{
   background-color:rgba(0,255,255,0.2);
+  
+}
+.marge{
+  margin-bottom:30px;
+}
+.bord{
+  border:solid white;
+}
+#bottom{
+  border-bottom:solid white;
 }
